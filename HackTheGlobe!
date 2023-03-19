@@ -89,7 +89,7 @@ def plot(mean, std_dev, prob):
         ax2.set_ylim(min(new_y_list) - 0.05, max(new_y_list) + 0.05)
         title_text.set_text(
             f'Expected growth rate: {new_mean:.4f}, Expected standard deviation: {new_std_dev:.4f}, Initial '
-            f'Probability of being insolvent: {new_prob:.4f} , Benchmark:{z_list[8]:.4f}'
+            f'Probability of being insolvent: {new_prob:.4f} , Benchmark:{new_z_list[8]:.4f}'
         )
 
         fig.canvas.draw_idle()
